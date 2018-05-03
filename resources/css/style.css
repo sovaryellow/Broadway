@@ -1,7 +1,6 @@
 body{
   font-family: Helvetica;
   text-align: center;
-
 }
 h1{
 
@@ -17,5 +16,10 @@ h4{
 }
 .landing_section{
   color: white;
-  background-image: image(resources/images/the-flatiron-building.png);
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  background-position: left;
+  background-size: 150%;
+}
+a{
+  color: white;
 }
